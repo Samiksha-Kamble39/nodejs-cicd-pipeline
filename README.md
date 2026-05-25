@@ -74,6 +74,8 @@ nodejs-cicd-pipeline/
 
 ```text
 http://samikshadevops.online
+or
+13.63.206.247
 ```
 
 ---
@@ -490,6 +492,8 @@ DNS records are mapped to the AWS EC2 public IP.
 
 ```text
 samikshadevops.online
+or 
+13.63.206.247
 ```
 
 ---
