@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
       </head>
       <body style="font-family: Arial; text-align:center; padding-top:50px;">
         <h1>🚀 Node.js CI/CD Pipeline Running</h1>
-        <h2>Deployed by Samiksha</h2>
+        <h2>Deployed by Samiksha kamble</h2>
         <p>Jenkins + Docker + Kubernetes + Prometheus</p>
       </body>
     </html>
