@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: nodejs-cicd-app
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: nodejs-cicd-app
+
+  template:
+    metadata:
+      labels:
+        app: nodejs-cicd-app
+
+    spec:
+      containers:
+      - name: nodejs-cicd-container
+        image: samikshakamble39/nodejs-cicd:latest
+
+        ports:
+        - containerPort: 3000
